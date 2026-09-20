@@ -9,7 +9,29 @@
 Unlike traditional security tools that require uploading sensitive personal data or URLs to cloud-based servers, Lumina executes its heuristic threat analysis entirely on-device. It evaluates websites and images locally to ensure zero data leakage.
 
 ## 📸Demo of the Project
-<video src="./demo.mp4" autoplay loop muted playsinline width="100%"></video>
+<video src="https://github.com/user-attachments/assets/322d7415-6c31-422b-ab12-bfccac0ae457" autoplay loop muted playsinline width="100%"></video>
+
+
+
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-20-15-627_com opera browser" src="https://github.com/user-attachments/assets/5b3b61d6-bc93-410b-9044-748a3e496707" />
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-20-02-349_com opera browser" src="https://github.com/user-attachments/assets/d7908a02-6f6c-4229-8273-c568887e6471" />
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-20-00-456_com opera browser" src="https://github.com/user-attachments/assets/5a0c56d5-56fe-4c4b-a6ad-8c9d9d36686a" />
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-19-51-990_com opera browser" src="https://github.com/user-attachments/assets/c483e0b9-5b7f-4dcb-b391-783756c1c032" />
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-19-46-558_com opera browser" src="https://github.com/user-attachments/assets/67b332b9-5293-4b81-a8af-14db4d4fef9c" />
+<img width="72" height="164" alt="Screenshot_2026-09-20-14-19-30-674_com opera browser" src="https://github.com/user-attachments/assets/53eecc72-db74-4852-819a-e2de387977b7" />
+
+---
+  
+<img width="141" height="74" alt="web1" src="https://github.com/user-attachments/assets/af2e83d8-4fa9-4f83-a411-3f8466d34d60" />
+<img width="139" height="71" alt="web3" src="https://github.com/user-attachments/assets/852b2045-9030-47f2-a05d-626770d2338c" />
+<img width="140" height="81" alt="web2" src="https://github.com/user-attachments/assets/67aa49be-a66f-43f0-9c87-e67141313cf0" />
+<img width="140" height="71" alt="web7" src="https://github.com/user-attachments/assets/cab36bfc-02e7-4df4-97b3-d5b74ed66363" />
+<img width="140" height="72" alt="web6" src="https://github.com/user-attachments/assets/cdcb6265-9dce-4a55-99ec-c4e314faec0e" />
+<img width="141" height="69" alt="web5" src="https://github.com/user-attachments/assets/a6caf542-2497-4a7c-9634-4701efeba612" />
+<img width="137" height="62" alt="web4" src="https://github.com/user-attachments/assets/e2903c86-ff10-40f3-b242-d6566cfcce63" />
+
+
+---
 
 ## ✨ Key Features
 * **🔒 Dual-Input Threat Portal:** Seamlessly inspect suspicious target URLs or upload checkout screenshots for offline text extraction.
