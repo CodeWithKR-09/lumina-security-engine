@@ -393,6 +393,6 @@ Utilize the **built-in quick preset** buttons (if configured in your UI) to auto
 
 Click the preset for **"E-commerce Sandbox" or "Banking Demo"**.
 
-Expected Result: The engine instantly parses the preset URL, demonstrating the speed of the local proxy without manual typing.
+**Expected Result: The engine instantly parses the preset URL, demonstrating the speed of the local proxy without manual typing.**
 ---
 *Designed and developed by Kamalesh Ramu S V for HackDay 1.0.*
