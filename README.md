@@ -4,9 +4,12 @@
 > *Built for HackDay 1.0 — Theme: "Tech for a Better Tomorrow"*
 
 ## 🚀 Overview
-**Lumina Security Engine** is a high-performance, 100% privacy-first Progressive Web App (PWA) designed to protect consumers from deceptive web practices, psychological manipulation (dark patterns), and hidden credential phishing. 
+**Lumina Security Engine** is a high-performance, 100% privacy-first Progressive Web App (PWA) designed to protect consumers from deceptive web practices, psychological manipulation (dark patterns), and hidden credential phishing. It works with both Mobile and Desktop environments.
 
 Unlike traditional security tools that require uploading sensitive personal data or URLs to cloud-based servers, Lumina executes its heuristic threat analysis entirely on-device. It evaluates websites and images locally to ensure zero data leakage.
+
+##📸Demo of the Project
+<video src="./demo.mp4">
 
 ## ✨ Key Features
 * **🔒 Dual-Input Threat Portal:** Seamlessly inspect suspicious target URLs or upload checkout screenshots for offline text extraction.
