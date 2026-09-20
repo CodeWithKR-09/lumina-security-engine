@@ -6,6 +6,8 @@
 > Project by Kamalesh Ramu S V
 > 
 > **The Public URL of my project: https://lumina-security.netlify.app/**
+>
+> **The project's PPT public URL: https://docs.google.com/presentation/d/1R1KJ7uHvkcyay_x-3QcnhWSeGXkkq-QVy0LTXSC5nBg/edit?usp=sharing**
 
 ## 🚀 Overview
 **Lumina Security Engine** is a high-performance, 100% privacy-first Progressive Web App (PWA) designed to protect consumers from deceptive web practices, psychological manipulation (dark patterns), and hidden credential phishing. It works with both Mobile and Desktop environments.
