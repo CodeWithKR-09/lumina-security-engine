@@ -44,9 +44,9 @@ const DEMO_PRESETS: DemoPreset[] = [
     url: 'https://www.google.com/nonexistent-test-404-page'
   },
   {
-    label: 'Malicious Netlify Demo',
+    label: 'Malicious Simulation (Live)',
     type: 'phishing',
-    url: 'https://malcheck.netlify.app/'
+    url: '/demo/malicious-test.html'
   }
 ];
 
@@ -78,7 +78,12 @@ export default function Home() {
 
   const handleApplyPreset = (preset: DemoPreset) => {
     setActiveTab('url');
-    setInputVal(preset.url);
+    // Convert relative URLs (like /demo/malicious-test.html) to absolute origin URLs so scraper can fetch them
+    const targetUrl = preset.url.startsWith('/')
+      ? `${typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000'}${preset.url}`
+      : preset.url;
+
+    setInputVal(targetUrl);
 
     if (preset.mockHtml) {
       // Direct simulation with the preset payload
@@ -87,16 +92,16 @@ export default function Home() {
       setIsTargetAvailable(true);
       setUnavailableReason('');
       setTimeout(() => {
-        const analysis = analyzeContent(preset.mockHtml!, 'html', preset.url);
+        const analysis = analyzeContent(preset.mockHtml!, 'html', targetUrl);
         setResult(analysis);
-        setScannedUrl(preset.url);
+        setScannedUrl(targetUrl);
         setScanning(false);
         setScanStatus('');
       }, 300);
     } else {
       // Immediately run real scan for live presets
       setTimeout(() => {
-        executeUrlScan(preset.url);
+        executeUrlScan(targetUrl);
       }, 100);
     }
   };
