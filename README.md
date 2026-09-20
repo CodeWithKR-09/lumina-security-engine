@@ -8,8 +8,8 @@
 
 Unlike traditional security tools that require uploading sensitive personal data or URLs to cloud-based servers, Lumina executes its heuristic threat analysis entirely on-device. It evaluates websites and images locally to ensure zero data leakage.
 
-##📸Demo of the Project
-<video src="./demo.mp4">
+## 📸Demo of the Project
+<video src="./demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
 ## ✨ Key Features
 * **🔒 Dual-Input Threat Portal:** Seamlessly inspect suspicious target URLs or upload checkout screenshots for offline text extraction.
