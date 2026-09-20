@@ -2,6 +2,10 @@
 
 > **The Privacy-First Offline Dark Pattern & Threat Sandbox**  
 > *Built for HackDay 1.0 — Theme: "Tech for a Better Tomorrow"*
+> 
+> Project by Kamalesh Ramu S V
+> 
+> **The Public URL of my project: https://lumina-security.netlify.app/**
 
 ## 🚀 Overview
 **Lumina Security Engine** is a high-performance, 100% privacy-first Progressive Web App (PWA) designed to protect consumers from deceptive web practices, psychological manipulation (dark patterns), and hidden credential phishing. It works with both Mobile and Desktop environments.
